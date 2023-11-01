@@ -38,3 +38,30 @@ elif Topping == 4:
 else:
 #Tampilan jika pelanggan tidak memilih Topping
     print("tidak ada yang dipilih")
+# Menentukan Crust pada Jenis Pizza yang di pesan
+print ("| ---  Pilih Crust  ---  |")
+print ("| 1. Pan                 |")
+print ("| 2. StuffedCrust Cheese |")
+print ("| 3. StuffedCrust Sausage|")
+print ("| 4. Cheesy Bites        |")
+print ("| 5. CrownCrust          |")
+#Setelah Crust di pilih maka :
+rasacrust = int(input("Pilih Crust 1/2/3/4/5 "))
+# Apabila Pelanggan memilih Curst 1 maka :
+if rasacrust == 1:
+    Hargatotal += 43637
+    rasacrust = "== Pan ==" 
+# Menambahkan ukuran dari Pizza
+    size = input("PILIH UKURAN Personal/Reguler/Large: ")
+# Jika memilih ukuran Personal maka tidak ada tambahan harga
+    if size == "Personal":
+        Hargatotal += 0
+# Jika memilih ukuran Reguler maka tambahan harga sebesar 
+    elif size == "Reguler" :
+        Hargatotal += 57273
+# Jika memilih ukuran Large maka tambahan harga sebesar
+    elif size == "Large":
+        Hargatotal += 89091
+# Tampilan Jika memilih tidak memilih ukuran Pizza
+    else:
+        print("Tidak Ada Yang Dipilih")
