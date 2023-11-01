@@ -145,3 +145,11 @@ elif tambahan == "y" and size == "Large":
 # Tampilan Jika memilih tidak memilih variasi keju Pizza
 else:
     print("Tanpa tambahan cheese")
+
+#Tampilan menu yang dipilih
+print(Topping)
+print(rasacrust)
+print(size)
+#Menghitung jumlah total pesanan pelanggan
+print("Harga Total ",Hargatotal)
+
