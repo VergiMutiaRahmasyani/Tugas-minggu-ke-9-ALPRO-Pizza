@@ -80,3 +80,19 @@ elif rasacrust == 2:
 # Jika memilih ukuran Large maka tambahan harga sebesar
     elif size == "Large":
         Hargatotal += 104545
+elif rasacrust == 3:
+    Hargatotal += 52728
+    rasacrust = "== StuffedCrust Sausage =="
+    size = input("PILIH UKURAN Personal/Reguler/Large: ")
+# Jika memilih ukuran Personal maka tidak ada tambahan harga
+    if size == "Personal":
+        Hargatotal += 0
+# Jika memilih ukuran Reguler maka tambahan harga sebesar 
+    elif size == "Reguler":
+        Hargatotal += 64545
+# Jika memilih ukuran Large maka tambahan harga sebesar
+    elif size == "Large":
+        Hargatotal += 102727
+# Tampilan Jika memilih tidak memilih ukuran Pizza
+    else:
+        print("Tidak Ada Yang Dipilih")
