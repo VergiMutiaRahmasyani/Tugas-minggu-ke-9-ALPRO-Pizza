@@ -129,3 +129,19 @@ elif rasacrust == 3:
         print("Tidak Ada Yang Dipilih")
 else:
     print("tidak ada yang dipilih")
+    
+#Menambahkan variasi keju
+tambahan = input("Tambahan cheese y/n:")
+# Jika memilih variasi keju Personal maka
+if tambahan == "y" and size == "Personal":
+    Hargatotal += 13636
+    print("Dengan Tambahan cheese")
+# Jika memilih variasi keju Reguler maka
+elif tambahan == "y" and size == "Reguler":
+    Hargatotal += 16364
+# Jika memilih variasi keju Large maka
+elif tambahan == "y" and size == "Large":
+    Hargatotal += 19091
+# Tampilan Jika memilih tidak memilih variasi keju Pizza
+else:
+    print("Tanpa tambahan cheese")
